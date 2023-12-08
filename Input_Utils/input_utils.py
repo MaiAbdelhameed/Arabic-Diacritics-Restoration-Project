@@ -13,18 +13,11 @@ def read_input(file_path) -> list:
 # In[2]:
 
 
-train_dataset = read_input('../Dataset/train.txt')
-print(len(train_dataset))
-
-
-# In[3]:
-
-
 def create_py():
     get_ipython().system('jupyter nbconvert --to script input_utils.ipynb')
 
 
-# In[4]:
+# In[3]:
 
 
 if __name__ == '__main__':
