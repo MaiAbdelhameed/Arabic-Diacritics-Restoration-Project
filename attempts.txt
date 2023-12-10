@@ -1,0 +1,15 @@
+trials for lemmatization:
+1) Lemmatization Model from Snow Labs
+2) Lemmatization from an api 'https://farasa.qcri.org/webapi/lemmatization/'
+"import json
+import requests
+url = 'https://farasa.qcri.org/webapi/lemmatization/'
+text = 'يُشار إلى أن اللغة العربية' 
+api_key = "#####################"
+payload = {'text': text, 'api_key': api_key}
+data = requests.post(url, data=payload)
+print(data)
+result = json.loads(data.text)
+print(result) "
+
+3) 
